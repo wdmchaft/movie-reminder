@@ -1,0 +1,75 @@
+user:rvarshne (Varshney, Ruchi)
+
+Movie Reminder
+--------------
+
+Third-party code
+----------------
+Facebook SDK in the Facebook group in the project directory
+
+Navigation
+----------
+
+Now Playing Tab / Coming Soon Tab / My Favorites Tab
+-----------------------------------------------------
+- Select table cell to open details view
+- Shake gesture in any of these views opens the details of a random movie 
+in from their respective tables.
+
+My Reminders Tab
+----------------
+- Select table cell to see event details view
+- Click on Edit to change or delete the movie event
+
+Movie Details View
+------------------
+- Scroll the lower table view controller to see movie details
+- Click on the website link (if available) to see browser
+- Click on the thumbnail image to trigger image view to view enlarged movie poster
+- Click on "Add Favorite" to add movies to favorites (shows up in My Favorites)
+- Click on "Add Reminder" to add a reminder (shows up in My Reminders)
+- Reminders show up in the iPhone Calendar application
+- Changes/removal of events in the Calendar application are mirrored in Movie Reminder through event store notifications
+- Click on "Watch Trailer" to view trailer (the video may not be accurate, since I only have a few iTunes trailers).
+- Click on the "Actions" button on the navigation bar to bring up more actions
+- Click on "Post on Facebook" to trigger Facebook post sequence
+- Click on "Tweet on Twitter" to see Twitter post view
+- Click on "Find Playing Nearby" (only works on Now Playing movies) to see a map view of surrounding theatres playing the movie
+- Click on "Make Word Cloud" to bring up the word cloud view
+
+Movie Map View
+--------
+- Click on annotation to see theatre details
+- Click on callout accessory to see theatre details
+- Click on "Directions to here"/"Directions from here" to trigger iPhone maps
+
+Movie Word Cloud View
+---------------
+- Shake gesture randomizes the word cloud
+- Click on "Actions" button on the navigation bar
+- Click on "Shake!" to randomize word cloud
+- Click on "Save to Photos" to add screenshot to photo album
+- Click on "Email to Friend" to trigger mail composition view
+
+iOS Features Used
+-----------------
+- UITableViewController
+- UIImageView
+- UIScrollView
+- UITabBarController
+- EventKit/EKEventEditViewController
+- MapKit
+- CoreLocation
+- CGContext
+- UIResponder
+- UISearchBar 
+- TWTweetComposeViewController
+- UIActionSheet
+- UIWebView
+- UISharedApplication (Maps/Phone/Network Activity)
+- MediaPlayer
+- CoreData
+- MFMailComposeViewController
+- UIGraphicsImageContext
+- NSXMLParser
+- NSNotificationCenter
